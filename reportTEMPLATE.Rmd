@@ -1,0 +1,17 @@
+---
+title: "TEMPLATE"
+author: "AUTHOR"
+date: "DATE"
+output: html_document
+---
+
+# General background
+
+# ANALYSIS 1
+
+### ANALYSIS 1.1
+
+### ANALYSIS 1.2
+
+
+# ANALYSIS 2

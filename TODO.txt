@@ -1,0 +1,10 @@
+shell script (or R??) that replaces TEMPLATE everywhere and generates new project...
+
+Or just remove "template" everywhere, just have generic file names, such as
+
+generateRmdReport
+importData
+anaData
+initProject
+
+?

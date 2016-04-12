@@ -6,10 +6,10 @@
 # ==========================================================
 
 
-setwd ('D:/Work/MPI/R/Projects/TEMPLATE')
+setwd(get('HOME', 'RPROJ'))
 
 # init and aux fns
-source('initTEMPLATE.R')
+source('initProject.R')
 
 # -----------
 # import data 

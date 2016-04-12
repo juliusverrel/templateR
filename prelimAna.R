@@ -7,12 +7,12 @@
 
 
 # initialize
-setwd ('D:/Work/MPI/R/Projects/TEMPLATE')
-source('initTEMPLATE.R')
+setwd(get('HOME', 'RPROJ'))
+source('initProject.R')
 
 
 # load data
-load(file = 'data/TEMPLATE.RData')
+load(file = 'data/importedData.RData')
 
 #-----------
 # QUESTION 1

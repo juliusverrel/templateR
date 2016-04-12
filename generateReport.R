@@ -5,17 +5,17 @@
 # render Rmarkdown file (anaTEMPLATE.Rmd)
 # ==========================================================
 
-setwd ('D:/Work/MPI/R/Projects/TEMPLATE')
+setwd(get('HOME', 'RPROJ'))
 
 # load packages and define aux functions
-source('./initTEMPLATE.R')  
+source('./initProject.R')  
 library(rmarkdown)
 
 # load data
-load(file='data/anaTEMPLATE.Rdata')
+load(file='importedData.Rdata')
 
 
 # generate html file
-render('anaTEMPLATE.Rmd', output_dir = 'report') 
+render('report.Rmd', output_dir = 'report') 
 
 
